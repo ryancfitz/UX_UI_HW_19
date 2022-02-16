@@ -1,0 +1,155 @@
+.inline-block { 
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-right: auto;
+    word-spacing: 20px;
+    font-family: Karla, Arial, sans-serif;
+    font-size: 28px;
+}
+
+.flexContainer {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+.flexContainer > div {
+    margin: 15px;
+}
+
+.workGrid {
+    display: grid;
+    padding: 40px;
+    grid-template-rows: 415px 415px;
+    grid-template-columns: auto auto;
+    grid-row-gap: 50px;
+}
+
+.campHorizon {
+    background-color: #f4df38;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Karla, Arial, sans-serif;
+}
+
+.listFound {
+    background-color: #a2d0c9;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Karla, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: Karla, Arial, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Karla, Arial, sans-serif;
+    color: gray;
+}
+
+h4 {
+    font-size: 40px;
+    font-family: architects daughter;
+}
+
+h2 {
+    font-size: 14px;
+    font-family: Karla, Arial, sans-serif;
+}
+
+button {
+    border-radius: 12px;
+    margin-top: 40px;
+    font-family: Karla, Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    width: 200px;
+}
+
+button:hover {
+    background-color: tomato;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 125px;
+    text-align: center;
+    color: black;
+    height: 50px;
+    font-family: Karla, Arial, sans-serif;
+}
+
+.footerButton {
+    border-radius: 12px;
+    border-color: #00ABA3;
+    background-color: #00ABA3;
+    margin: 0 auto;
+    font-family: Karla, Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 25px;
+    width: 250px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexContainer > div {
+        width: 100%;
+}
+    
+    .workGrid {
+        display: grid;
+        padding: 40px;
+        grid-template-rows: 415px 415px 415px 415px;
+        grid-template-columns: 1fr;
+        grid-row-gap: 0px;
+    }
+    
+    .campHorizon {
+        background-color: #f4df38;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-family: Karla, Arial, sans-serif;
+    }
+    
+    .listFound {
+        background-color: #a2d0c9;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-family: Karla, Arial, sans-serif;
+    }
