@@ -24,7 +24,7 @@ ul {
 .flexContainer {
     display: flex;
     margin-left: 40px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .flexContainer > div {
     margin: 15px;
